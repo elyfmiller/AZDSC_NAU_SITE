@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>markov_chains – Education Test Site</title>
+<title> An Introduction to Markov Chains  – Education Test Site</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -199,9 +199,27 @@ window.Quarto = {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><center><br>
+An Introduction to Markov Chains<br>
+</center></h1>
+</div>
 
 
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <section id="stochastic-processes" class="level3">
@@ -334,9 +352,11 @@ PX_t|X_0 at time 100 = [0.5 0.5]</code></pre>
 <p><span class="math display">\[
 d(i) = \text{gcd}\{t \geq 1 : P(X_{t} = i|X_{0} = i) &gt; 0\}
 \]</span>.</p>
-<p>In our example, let <span class="math inline">\(i = \text{sun}\)</span> . Then $$</p>
-<p>d() = {t : P(X_{t} = |X_{0} = ) &gt; 0} = 1</p>
-<p>$$</p>
+<p>In our example, let <span class="math inline">\(i = \text{sun}\)</span> . Then <span class="math display">\[
+\begin{align}
+d(\text{sun}) = \text{gcd} \{t \geq 1 : P(X_{t} = \text{sun}|X_{0} = \text{sun}) &gt; 0\}  = 1
+\end{align}
+\]</span></p>
 <p>similarly, <span class="math inline">\(d(\text{cloud}) = 1\)</span>. As all states in the Markov chain have period <span class="math inline">\(1\)</span> we say the chain is aperiodic.</p>
 </section>
 <section id="irreducibility" class="level3">

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title> Simulating Dynamical Systems – Education Test Site</title>
+<title> Simulating Dynamical Systems  – Education Test Site</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -193,7 +193,8 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title"><center><br>
-Simulating Dynamical Systems</center></h1>
+Simulating Dynamical Systems<br>
+</center></h1>
 </div>
 
 
@@ -229,7 +230,7 @@ X_{t+1} = 2 X_t
 <p>where <span class="math inline">\(t \in \text{hour 0}, \text{hour 1}, \dots\)</span>.</p>
 <p>Now we will use python to simulate this dynamical system and predict bacteria populations in the future. Before starting, note that we will require one more component to fully specify this system, the initial condition. If we don’t know the population of the bacteria at time 0 we cannot calculate the population at time 1 and therefore we can’t predict the population at time 2 and so on.</p>
 <p>Let’s set the initial population of bacteria to 1, so <span class="math inline">\(X_{0} = 1\)</span>.</p>
-<div id="f20dfe87" class="cell" data-execution_count="10">
+<div id="f20dfe87" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -259,8 +260,8 @@ X_{t+1} = 2 X_t
 X_{t+1} = X_{t} + X_{t}\left(1 - \frac{X_{t}}{N}\right)
 \]</span></p>
 <p>where the term <span class="math inline">\(\left(1 - \frac{X_{t}}{N}\right)\)</span> will damp the growth of <span class="math inline">\(X_t\)</span> as it gets close to <span class="math inline">\(N\)</span>. The parameter <span class="math inline">\(N\)</span> represents the “carrying capacity” of the environment, e.g.&nbsp;the number of bacteria the environment can support. Let’s set <span class="math inline">\(N = 100\)</span> and simulate this new system.</p>
-<div id="39c55786" class="cell" data-execution_count="11">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>ts <span class="op">=</span> np.arange(<span class="dv">0</span>,<span class="dv">10</span> <span class="op">+</span> <span class="dv">1</span>,<span class="dv">1</span>) <span class="co">#We will compute the bacteria population over a ten hour period</span></span>
+<div id="39c55786" class="cell" data-execution_count="2">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>ts <span class="op">=</span> np.arange(<span class="dv">0</span>,<span class="dv">15</span> <span class="op">+</span> <span class="dv">1</span>,<span class="dv">1</span>) <span class="co">#We will compute the bacteria population over a ten hour period</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>xs <span class="op">=</span> np.zeros(<span class="bu">len</span>(ts))</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>xs[<span class="dv">0</span>] <span class="op">=</span> <span class="dv">1</span> <span class="co">#Set the initial condition</span></span>
@@ -335,7 +336,7 @@ X(0) &amp;= De^{0} \\
 \end{align*}
 \]</span></p>
 <p>So we are left with the <span class="math inline">\(X(t) = e^{x}\)</span>. Let’s now plot this function alongside our discrete time dynamical system above.</p>
-<div id="257211df" class="cell" data-execution_count="17">
+<div id="257211df" class="cell" data-execution_count="3">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>ts <span class="op">=</span> np.arange(<span class="dv">0</span>,<span class="dv">10</span> <span class="op">+</span> <span class="dv">1</span>,<span class="dv">1</span>) <span class="co">#We will compute the bacteria population over a ten hour period</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>ts_cont <span class="op">=</span> np.arange(<span class="dv">0</span>,<span class="dv">10</span> <span class="op">+</span> <span class="fl">0.1</span>,<span class="fl">0.1</span>)</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -372,7 +373,7 @@ r &amp;= \ln(2).
 \end{align*}
 \]</span></p>
 <p>So we have derived our growth rate <span class="math inline">\(r = \ln(2)\)</span>. Let’s plot the two equations again.</p>
-<div id="2a5ec6d4" class="cell" data-execution_count="26">
+<div id="2a5ec6d4" class="cell" data-execution_count="4">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>ts <span class="op">=</span> np.arange(<span class="dv">0</span>,<span class="dv">10</span> <span class="op">+</span> <span class="dv">1</span>,<span class="dv">1</span>) <span class="co">#We will compute the bacteria population over a ten hour period</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>ts_cont <span class="op">=</span> np.arange(<span class="dv">0</span>,<span class="dv">10</span> <span class="op">+</span> <span class="fl">0.1</span>,<span class="fl">0.1</span>)</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -442,7 +443,7 @@ X(t + \Delta t) = X(t) + \Delta t \cdot f(X(t),t)
 X(0) &amp;= 0. \\
 \end{align*}
 \]</span></p>
-<div id="dabce2ff" class="cell" data-execution_count="42">
+<div id="dabce2ff" class="cell" data-execution_count="5">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>delta_t <span class="op">=</span> <span class="fl">0.1</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>ts_cont <span class="op">=</span> np.arange(<span class="dv">0</span>,<span class="dv">10</span> <span class="op">+</span> delta_t,delta_t)</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>

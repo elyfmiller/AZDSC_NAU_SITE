@@ -26,6 +26,7 @@ format:
 
 execute:
   freeze: auto
+  echo: true    # Ensures code is displayed correctly
 
 
 

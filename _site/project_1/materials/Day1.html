@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title> Introduction to Python and SciML Libraries – Education Test Site</title>
+<title> Introduction to Python and SciML Libraries  – Education Test Site</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -193,7 +193,8 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title"><center><br>
-Introduction to Python and SciML Libraries</center></h1>
+Introduction to Python and SciML Libraries<br>
+</center></h1>
 </div>
 
 
@@ -212,35 +213,35 @@ Introduction to Python and SciML Libraries</center></h1>
 
 <p>Here we will discuss the basic functionalities of Python that we use for data science and inference of dynamical systems.</p>
 <p>First we will touch on the syntax of Python.</p>
-####
-<center>
-<p>Variables</p>
+<section id="variables" class="level4">
+<h4 class="anchored" data-anchor-id="variables">Variables</h4>
 <p>In Python, variables are defined using standard assignment syntax. Python does not require that the type of the variable be specified. For example <code>int x = 5</code> is not valid Python syntax, instead the variable type is inferred at runtime. All Python types can be assigned to variables including constants and functions. Varibles can also be reassigned to a new type without incident.</p>
-####
-<center>
-<p>Functions</p>
+</section>
+<section id="functions" class="level4">
+<h4 class="anchored" data-anchor-id="functions">Functions</h4>
 <p>Functions in Python are defined using the <code>def f(x):</code> syntax. The <code>def</code> indicates the following is a function and the variables inside the parantheses comprise the arguments. Python functions can have an arbitrary number of arguments and an arbitrary number of return values. Instead of curly braces, Python uses indentation to encapsulate the function’s code.</p>
-<div id="ca437738" class="cell" data-execution_count="17">
+<div id="ca437738" class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>var <span class="op">=</span> <span class="dv">5</span>  <span class="co"># Variables can be assigned a constant value.</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Defining a function with a single argument</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> f(x):</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> x<span class="op">**</span><span class="dv">2</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Defining a function with a single argument</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> f(x):</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> x<span class="op">**</span><span class="dv">2</span></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># The builtin function print can be used to print the value of a python object. </span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Here we print the return value of f</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(f(var))</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>var <span class="op">=</span> f <span class="co">#Variables can hold any type, including functions</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(var(<span class="dv">6</span>)) <span class="co">#Calling the variable as a function</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># The builtin function print can be used to print the value of a python object.</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Here we print the return value of f</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(f(var))</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>var <span class="op">=</span> f  <span class="co"># Variables can hold any type, including functions</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(var(<span class="dv">6</span>))  <span class="co"># Calling the variable as a function</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>25
 36</code></pre>
 </div>
 </div>
-<div id="77224446" class="cell" data-execution_count="18">
+<div id="77224446" class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Python functions can have many arguments</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> f(x, y, z):</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> x<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> y<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> z<span class="op">**</span><span class="dv">2</span></span>
@@ -258,18 +259,18 @@ Introduction to Python and SciML Libraries</center></h1>
 <span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">2</span></span>
 <span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>)  <span class="co"># Variables can be assigned using the return values of a function</span></span>
 <span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(var1,var2,var3)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(var1, var2, var3)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>12
 4 4 4</code></pre>
 </div>
 </div>
-####
-<center>
-<p>Loops</p>
+</section>
+<section id="loops" class="level4">
+<h4 class="anchored" data-anchor-id="loops">Loops</h4>
 <p>Python’s loop syntax is similar to other C Style programming languages. The simplest loop uses <code>range(x)</code> with an integer argument <code>x</code>. The indented code block repeats <code>x</code> times. The variable <code>i</code> can be used to access the value of the counter. Note that in Python the loop counter starts at zero. Other Python objects can be looped over, but for now we will stick with <code>range</code>.</p>
-<div id="c4be68b7" class="cell" data-execution_count="19">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">10</span>): </span>
+<div id="c4be68b7" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">10</span>):</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(i)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>0
@@ -284,16 +285,16 @@ Introduction to Python and SciML Libraries</center></h1>
 9</code></pre>
 </div>
 </div>
-####
-<center>
-<p>Lists and NumPy Arrays</p>
+</section>
+<section id="lists-and-numpy-arrays" class="level4">
+<h4 class="anchored" data-anchor-id="lists-and-numpy-arrays">Lists and NumPy Arrays</h4>
 <p>Python implements an object called a list which can hold many values at once. Lists are useful for holding values computed in loops. To add a new value <code>x</code> to the end of a list we use the syntax <code>L.append(x)</code>. To select a value at a specific index of the list we use the syntax <code>L[i]</code> and to determine the length of the list we call <code>len(L)</code>.</p>
-<div id="88361a77" class="cell" data-execution_count="20">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>L <span class="op">=</span> [] <span class="co">#Initializing an empty list</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>L <span class="op">=</span> [<span class="dv">5</span>,<span class="dv">6</span>,<span class="dv">3</span>] <span class="co">#A list can be initialized with values</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>L <span class="op">=</span> <span class="bu">list</span>() <span class="co">#Alternative way to initialize an empty list</span></span>
+<div id="88361a77" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>L <span class="op">=</span> []  <span class="co"># Initializing an empty list</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>L <span class="op">=</span> [<span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">3</span>]  <span class="co"># A list can be initialized with values</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>L <span class="op">=</span> <span class="bu">list</span>()  <span class="co"># Alternative way to initialize an empty list</span></span>
 <span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">10</span>): </span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">10</span>):</span>
 <span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    L.append(i<span class="op">**</span><span class="dv">2</span>)</span>
 <span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(L)</span>
@@ -313,24 +314,23 @@ Introduction to Python and SciML Libraries</center></h1>
 <div id="df69288c" class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>arr <span class="op">=</span> np.array([<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>])  <span class="co"># We create the array by calling np.array on a python list.</span></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr)</span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr.shape)</span>
-<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>multi_dim_arr <span class="op">=</span> np.zeros(</span>
-<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>    (<span class="dv">3</span>, <span class="dv">3</span>)</span>
-<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>)  <span class="co"># np.zeros creates an array of zeros, the argument (3,3) tells numpy to create a 3x3 array of zeros.</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>arr <span class="op">=</span> np.array([<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>])  <span class="co"># We create the array by</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># makicalling np.array on a python list.</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr)</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr.shape)</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>multi_dim_arr <span class="op">=</span> np.zeros((<span class="dv">3</span>, <span class="dv">3</span>))  <span class="co"># np.zeros creates an array of zeros,</span></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="co"># the argument (3,3) tells numpy to create a 3x3 array of zeros.</span></span>
 <span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(multi_dim_arr)</span>
 <span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>multi_dim_arr <span class="op">=</span> np.array(</span>
-<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>    [[<span class="dv">2</span>, <span class="dv">2</span>], [<span class="dv">2</span>, <span class="dv">2</span>]]</span>
-<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>)  <span class="co"># You can also create numpy arrays by hand using lists of lists, this creates a 2x2 array</span></span>
-<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(multi_dim_arr.shape)</span>
-<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(multi_dim_arr)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>multi_dim_arr <span class="op">=</span> np.array([[<span class="dv">2</span>, <span class="dv">2</span>], [<span class="dv">2</span>, <span class="dv">2</span>]])  <span class="co"># You can also create numpy arrays by hand</span></span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a><span class="co"># using lists of lists, this creates a 2x2 array</span></span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(multi_dim_arr.shape)</span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(multi_dim_arr)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1 2 3]
 (3,)
@@ -343,7 +343,7 @@ Introduction to Python and SciML Libraries</center></h1>
 </div>
 </div>
 <p>NumPy is extremely flexible and has numerous functions for creating and manipulating arrays. For example, we can operate on entire arrays at once to speed up computation. Various operations on arrays can be computed including means, standard deviations, and exponents.</p>
-<div id="f15a72bb" class="cell" data-execution_count="24">
+<div id="f15a72bb" class="cell" data-execution_count="6">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>arr <span class="op">=</span> np.array([<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>])  <span class="co"># We create the array by calling np.array on a python list.</span></span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr)</span>
@@ -361,23 +361,22 @@ Introduction to Python and SciML Libraries</center></h1>
 \begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix}.
 \]</span></p>
 <p>How do we take the sum of this matrix? We have 3 clear options, the sum of the rows, the sum of the columns, or the sum of all elements. NumPy can easily handle all of these cases but it is important to take care our operation is doing what we expect.</p>
-<div id="860bd455" class="cell" data-execution_count="34">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>arr <span class="op">=</span> np.array([[<span class="dv">1</span>,<span class="dv">2</span>],</span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>               [<span class="dv">3</span>,<span class="dv">4</span>]])</span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr.shape,<span class="st">'</span><span class="ch">\n</span><span class="st">'</span>)</span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>arr_row_sum <span class="op">=</span> np.<span class="bu">sum</span>(arr,axis <span class="op">=</span> <span class="dv">0</span>) <span class="co">#Sum of the rows</span></span>
-<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr_row_sum)</span>
-<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr_row_sum.shape,<span class="st">'</span><span class="ch">\n</span><span class="st">'</span>)</span>
-<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>arr_col_sum <span class="op">=</span> np.<span class="bu">sum</span>(arr,axis <span class="op">=</span> <span class="dv">1</span>) <span class="co">#Sum of the columns</span></span>
-<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr_col_sum)</span>
-<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr_col_sum.shape,<span class="st">'</span><span class="ch">\n</span><span class="st">'</span>)</span>
-<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>arr_sum <span class="op">=</span> np.<span class="bu">sum</span>(arr) <span class="co">#Sum of the elements</span></span>
-<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr_sum)</span>
-<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr_sum.shape)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div id="860bd455" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>arr <span class="op">=</span> np.array([[<span class="dv">1</span>, <span class="dv">2</span>], [<span class="dv">3</span>, <span class="dv">4</span>]])</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr.shape, <span class="st">"</span><span class="ch">\n</span><span class="st">"</span>)</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>arr_row_sum <span class="op">=</span> np.<span class="bu">sum</span>(arr, axis<span class="op">=</span><span class="dv">0</span>)  <span class="co"># Sum of the rows</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr_row_sum)</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr_row_sum.shape, <span class="st">"</span><span class="ch">\n</span><span class="st">"</span>)</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>arr_col_sum <span class="op">=</span> np.<span class="bu">sum</span>(arr, axis<span class="op">=</span><span class="dv">1</span>)  <span class="co"># Sum of the columns</span></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr_col_sum)</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr_col_sum.shape, <span class="st">"</span><span class="ch">\n</span><span class="st">"</span>)</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>arr_sum <span class="op">=</span> np.<span class="bu">sum</span>(arr)  <span class="co"># Sum of the elements</span></span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr_sum)</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr_sum.shape)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>(2, 2) 
 
@@ -391,9 +390,9 @@ Introduction to Python and SciML Libraries</center></h1>
 ()</code></pre>
 </div>
 </div>
-####
-<center>
-<p>Multiplication in NumPy</p>
+</section>
+<section id="multiplication-in-numpy" class="level4">
+<h4 class="anchored" data-anchor-id="multiplication-in-numpy">Multiplication in NumPy</h4>
 <p>Performing multiplication of arrays is another nontrival operation. There are many ways to perform array multiplication and we will demonstrate a few below.</p>
 <div id="f86af843" class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>arr <span class="op">=</span> np.array([[<span class="dv">1</span>, <span class="dv">2</span>], [<span class="dv">3</span>, <span class="dv">4</span>]])</span>
@@ -408,7 +407,8 @@ Introduction to Python and SciML Libraries</center></h1>
 <span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr <span class="op">*</span> arr_2, <span class="st">"</span><span class="ch">\n</span><span class="st">"</span>)</span>
 <span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Matrix multiplication</span></span>
-<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr <span class="op">@</span> arr_2, <span class="st">"</span><span class="ch">\n</span><span class="st">"</span>)  <span class="co"># Note that matrix multiplication uses the @ operator</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr <span class="op">@</span> arr_2, <span class="st">"</span><span class="ch">\n</span><span class="st">"</span>)  </span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Note that matrix multiplication uses the @ operator</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>(2, 2) 
 
@@ -423,14 +423,14 @@ Introduction to Python and SciML Libraries</center></h1>
 </code></pre>
 </div>
 </div>
-####
-<center>
-<p>Other useful NumPy Functions</p>
+</section>
+<section id="other-useful-numpy-functions" class="level4">
+<h4 class="anchored" data-anchor-id="other-useful-numpy-functions">Other useful NumPy Functions</h4>
 <p>We will briefly mention some other useful functions in NumPy.</p>
 <p><code>np.arange(start,stop,step)</code> creates an array of values between start and stop with spacing step.</p>
-<div id="3ad07067" class="cell" data-execution_count="39">
+<div id="3ad07067" class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>delta_t <span class="op">=</span> <span class="fl">0.1</span></span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>ts <span class="op">=</span> np.arange(<span class="dv">0</span>,<span class="dv">10</span> <span class="op">+</span> delta_t,delta_t)</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>ts <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">10</span> <span class="op">+</span> delta_t, delta_t)</span>
 <span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(ts)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -445,14 +445,14 @@ Introduction to Python and SciML Libraries</center></h1>
 </div>
 </div>
 <p><code>np.reshape(arr,shape)</code> transform a NumPy array into a new shape. This can be useful for matrix multiplication. This can also be called using <code>arr.reshape(shape).</code></p>
-<div id="38af83b7" class="cell" data-execution_count="40">
+<div id="38af83b7" class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>arr <span class="op">=</span> np.array([[<span class="dv">1</span>, <span class="dv">2</span>], [<span class="dv">3</span>, <span class="dv">4</span>]])</span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr,<span class="st">"</span><span class="ch">\n</span><span class="st">"</span>)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr, <span class="st">"</span><span class="ch">\n</span><span class="st">"</span>)</span>
 <span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr.shape, <span class="st">"</span><span class="ch">\n</span><span class="st">"</span>)</span>
 <span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>arr <span class="op">=</span> np.reshape(arr,(<span class="dv">4</span>,)) <span class="co">#Transforms arr into a flat array</span></span>
-<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr,<span class="st">"</span><span class="ch">\n</span><span class="st">"</span>)</span>
-<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr.shape,<span class="st">"</span><span class="ch">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>arr <span class="op">=</span> np.reshape(arr, (<span class="dv">4</span>,))  <span class="co"># Transforms arr into a flat array</span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr, <span class="st">"</span><span class="ch">\n</span><span class="st">"</span>)</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr.shape, <span class="st">"</span><span class="ch">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[[1 2]
  [3 4]] 
@@ -466,7 +466,7 @@ Introduction to Python and SciML Libraries</center></h1>
 </div>
 </div>
 <p><code>np.transpose(arr)</code> swaps the rows and columns of a matrix. This can also be called using <code>arr.T</code>.</p>
-<div id="c931e04c" class="cell">
+<div id="c931e04c" class="cell" data-execution_count="11">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>arr <span class="op">=</span> np.array([[<span class="dv">1</span>, <span class="dv">2</span>], [<span class="dv">3</span>, <span class="dv">4</span>], [<span class="dv">5</span>, <span class="dv">6</span>]])</span>
 <span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr, <span class="st">"</span><span class="ch">\n</span><span class="st">"</span>)</span>
 <span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr.shape, <span class="st">"</span><span class="ch">\n</span><span class="st">"</span>)</span>
@@ -489,7 +489,7 @@ Introduction to Python and SciML Libraries</center></h1>
 </div>
 </div>
 <p>NumPy also implements various mathematical functions that operate over the entire array. For example, <code>np.exp</code> and <code>np.log</code>. These operations are applied element-wise to the array.</p>
-<div id="4ebf2217" class="cell" data-execution_count="43">
+<div id="4ebf2217" class="cell" data-execution_count="12">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>arr <span class="op">=</span> np.array([[<span class="dv">1</span>, <span class="dv">2</span>], [<span class="dv">3</span>, <span class="dv">4</span>], [<span class="dv">5</span>, <span class="dv">6</span>]])</span>
 <span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr, <span class="st">"</span><span class="ch">\n</span><span class="st">"</span>)</span>
 <span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(arr.shape, <span class="st">"</span><span class="ch">\n</span><span class="st">"</span>)</span>
@@ -507,9 +507,9 @@ Introduction to Python and SciML Libraries</center></h1>
  [148.4131591  403.42879349]]</code></pre>
 </div>
 </div>
-####
-<center>
-<p>Matplotlib</p>
+</section>
+<section id="matplotlib" class="level4">
+<h4 class="anchored" data-anchor-id="matplotlib">Matplotlib</h4>
 <p>Matplotlib is another extremely useful Python package for plotting. This package allows us to visualize the results of various mathematical computations performed in NumPy. We import Matplotlib the same way as NumPy.</p>
 <div id="0e958045" class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
@@ -527,25 +527,27 @@ Introduction to Python and SciML Libraries</center></h1>
 <span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>    <span class="op">-</span>np.pi <span class="op">/</span> <span class="dv">2</span>, <span class="op">-</span><span class="fl">1.0</span>, label<span class="op">=</span><span class="st">"Minimum"</span>, color<span class="op">=</span><span class="st">"green"</span>, zorder<span class="op">=</span><span class="dv">10</span></span>
 <span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>)  <span class="co"># Zorder makes sure the dot is plotted on top of the line</span></span>
 <span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Matplotlib will interpolate a continuous curve from the points if you use plot</span></span>
-<span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a>plt.plot(xs, ys, label<span class="op">=</span><span class="st">"Curve"</span>)</span>
-<span id="cb25-18"><a href="#cb25-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-19"><a href="#cb25-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting horizontal and vertical lines</span></span>
-<span id="cb25-20"><a href="#cb25-20" aria-hidden="true" tabindex="-1"></a>plt.axhline(y<span class="op">=</span><span class="dv">0</span>, linestyle<span class="op">=</span><span class="st">"dashed"</span>)</span>
-<span id="cb25-21"><a href="#cb25-21" aria-hidden="true" tabindex="-1"></a>plt.axvline(x<span class="op">=</span><span class="dv">0</span>, linestyle<span class="op">=</span><span class="st">"dashed"</span>)</span>
-<span id="cb25-22"><a href="#cb25-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-23"><a href="#cb25-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Adding labels to our plot</span></span>
-<span id="cb25-24"><a href="#cb25-24" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"x"</span>)</span>
-<span id="cb25-25"><a href="#cb25-25" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"y"</span>)</span>
-<span id="cb25-26"><a href="#cb25-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-27"><a href="#cb25-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Adding a grid background</span></span>
-<span id="cb25-28"><a href="#cb25-28" aria-hidden="true" tabindex="-1"></a>plt.grid()</span>
-<span id="cb25-29"><a href="#cb25-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-30"><a href="#cb25-30" aria-hidden="true" tabindex="-1"></a><span class="co"># Adding the legend, this uses the label string in scatter and plot to populate the legend</span></span>
-<span id="cb25-31"><a href="#cb25-31" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
-<span id="cb25-32"><a href="#cb25-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-33"><a href="#cb25-33" aria-hidden="true" tabindex="-1"></a><span class="co"># Shows the plot on the screen</span></span>
-<span id="cb25-34"><a href="#cb25-34" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Matplotlib will interpolate a </span></span>
+<span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a><span class="co"># continuous curve from the points if you use plot</span></span>
+<span id="cb25-18"><a href="#cb25-18" aria-hidden="true" tabindex="-1"></a>plt.plot(xs, ys, label<span class="op">=</span><span class="st">"Curve"</span>)</span>
+<span id="cb25-19"><a href="#cb25-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-20"><a href="#cb25-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting horizontal and vertical lines</span></span>
+<span id="cb25-21"><a href="#cb25-21" aria-hidden="true" tabindex="-1"></a>plt.axhline(y<span class="op">=</span><span class="dv">0</span>, linestyle<span class="op">=</span><span class="st">"dashed"</span>)</span>
+<span id="cb25-22"><a href="#cb25-22" aria-hidden="true" tabindex="-1"></a>plt.axvline(x<span class="op">=</span><span class="dv">0</span>, linestyle<span class="op">=</span><span class="st">"dashed"</span>)</span>
+<span id="cb25-23"><a href="#cb25-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-24"><a href="#cb25-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Adding labels to our plot</span></span>
+<span id="cb25-25"><a href="#cb25-25" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"x"</span>)</span>
+<span id="cb25-26"><a href="#cb25-26" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"y"</span>)</span>
+<span id="cb25-27"><a href="#cb25-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-28"><a href="#cb25-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Adding a grid background</span></span>
+<span id="cb25-29"><a href="#cb25-29" aria-hidden="true" tabindex="-1"></a>plt.grid()</span>
+<span id="cb25-30"><a href="#cb25-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-31"><a href="#cb25-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Adding the legend, this uses the label string </span></span>
+<span id="cb25-32"><a href="#cb25-32" aria-hidden="true" tabindex="-1"></a><span class="co"># in scatter and plot to populate the legend</span></span>
+<span id="cb25-33"><a href="#cb25-33" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb25-34"><a href="#cb25-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-35"><a href="#cb25-35" aria-hidden="true" tabindex="-1"></a><span class="co"># Shows the plot on the screen</span></span>
+<span id="cb25-36"><a href="#cb25-36" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -557,8 +559,9 @@ Introduction to Python and SciML Libraries</center></h1>
 <p>Matplotlib has a variety of features for creating high quality visuals, the above example only covers the basics but these are sufficient for our plotting purposes.</p>
 
 
+</section>
 
-</center></center></center></center></center></center></center></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
