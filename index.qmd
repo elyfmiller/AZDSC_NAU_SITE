@@ -15,13 +15,16 @@ This project is supported by the Data Science Corps program, which supports data
 
 
 ## Introductory Pathway 
-Workshop schedule 2026
+Workshop schedule 
+[2026](schedule/schedule_2026_intro.qmd) 2027 2028
 
 ## Intermediate Pathway
-Workshop schedule 2026
+Workshop schedule 
+[2026](schedule/schedule_2026_int.qmd) 2027 2028
 
 ## Advanced Pathway
-Workshop schedule 2026
+Workshop schedule 
+[2026](schedule/schedule_2026_intro.qmd) 2027 2028
 
 ## Projects
 

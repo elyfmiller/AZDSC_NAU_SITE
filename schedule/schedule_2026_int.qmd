@@ -1,0 +1,75 @@
+---
+title: "Workshop schedule"
+---
+
+## Summer Sessions
+
+Summer sessions are three full days of in‑person professional learning designed to build your confidence and skill in teaching data science. During the Summer Sessions, you’ll participate in interactive instructional routines, hands‑on lesson activities, and collaborative exploration of the data cycle and data science habits of mind. Educators will receive high‑quality, free resources that can be implemented immediately in the classroom, with clear connections to academic standards.
+
+Location: Ponderosa High School,
+2884 N. Steves Blvd, Flagstaff, AZ
+
+Dates: June 22-24, 2026
+
+Time: 8:00 AM – 4:00 PM
+
+*Bring your own device. 
+Come ready to engage, collaborate, and bring fresh data‑driven learning experiences back to your students.
+
+
+
+## Community of Practice
+
+Throughout the school year, educators will participate in a vibrant Community of Practice: an opportunity for continued learning, collaboration, and professional growth. Each month, teachers will connect with data science education experts from around the world to explore new ideas, refine instructional strategies, and develop actionable plans for integrating data science into their classrooms. These sessions support teachers in building confidence, sharing successes, and tackling challenges as they bring authentic data experiences to students.
+Save the dates on your calendar, Zoom links will be shared prior to each meeting to ensure easy access and smooth participation.
+
+Date and Time
+Speakers
+Registration Link
+
+Tuesday August 18, 2026
+4:00pm-5:30pm 
+Hannah Kurzweil 
+(DataScience4Everyone)
+
+
+Tuesday, September 15, 2026 4:00pm-5:30pm 
+Aaron Reedy 
+(Data Classroom) 
+
+
+Tuesday, November 17, 2026
+4:00pm-5:30pm 
+Emmanuel Schanzer (Bootstrap)
+
+
+Tuesday, December 15, 2026
+4:00pm-5:30pm 
+Josh Recio 
+(Dana Center)
+
+
+Tuesday, January 12, 2027
+4:00pm-5:30pm 
+Hollylynne Lee 
+(North Carolina State University)
+
+
+Tuesday, February 9, 2027
+4:00pm-5:30pm 
+Ji Yun Son & Aleks Kaplon-Schilis (CourseKata)
+
+
+Tuesday, April 21, 2027
+4:00pm-5:30pm 
+TBD
+
+
+Tuesday, May 11, 2027
+4:00pm-5:30pm 
+Kate Miller 
+(Concord Consortium)
+
+
+
+
