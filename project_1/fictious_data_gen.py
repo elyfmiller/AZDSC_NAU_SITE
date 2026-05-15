@@ -20,7 +20,7 @@ rng = np.random.default_rng(0)
 
 par = np.array([0.15,0.1]) #beta,gamma
 
-delta_t = 0.001
+delta_t = 0.01
 ts_cont = np.arange(0,len(dates),delta_t)
 
 xs = np.zeros((len(ts_cont),3))
