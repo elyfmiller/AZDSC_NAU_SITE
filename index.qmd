@@ -36,11 +36,11 @@ Advanced Pathway
 This project is funded by NSF 2436761, which supports data science education and training to build a strong national data science infrastructure and workforce. Additionally, This project is co-funded by the Innovative Technology Experiences for Students and Teachers (ITEST) program, which supports projects that build understandings of practices, program elements, contexts and processes contributing to increasing students' knowledge and interest in science, technology, engineering, and mathematics (STEM) and information and communication technology (ICT) careers.
 
 ::: 
-![](imgs/NSF-Logo-500x281.png){{width=20%}
+![](imgs/NSF-Logo-500x281.png){width=20%}
 
-![](imgs/NAU_Acronym_primary-281_3514-600x426.png){{width=20%}
+![](imgs/NAU_Acronym_primary-281_3514-600x426.png){width=20%}
 
-![](imgs/ADE-Seal-Logo-R0323-FINAL-1024x1024.png){{width=20%}
+![](imgs/ADE-Seal-Logo-R0323-FINAL-1024x1024.png){width=20%}
 :::
 
 
