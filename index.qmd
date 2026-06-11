@@ -3,7 +3,7 @@ title: "Website Test"
 ---
 
 ::: {style="float: left; margin: 5px;"}
-![](imgs/rosenbrock.png)
+![](imgs/data_science_education-768x439.jpg)
 :::
 
 The Arizona Department of Education has emphasized that there is currently a dearth of teachers prepared to facilitate data science education in Arizona. Arizona Data Science Corps (AZDSC) will help to address this shortfall by (1) supporting the data science education professional learning of ninety 6th-12th grade Math/Stat/Computer Science teachers, ninety 6th-12th grade non-Math/Stat/Computer Science teachers; and (2) laying the foundation for the development, adoption, and implementation of Arizona K-12 Data Science Education Standards. Arizona Data Science Corps will support data science education across the whole state of Arizona with professional learning and research activities associated with AZDSC occurring in every region of Arizona and impacting every educational services agency district in the state. This project will provide Data Science education and support to all fifteen Arizona counties through a regional (North, South, Central) hybrid model, which will directly impact 180 6th-12th grade teachers and approximately 18,000 of their 6th-12th grade students.
@@ -19,13 +19,13 @@ This project is supported by the Data Science Corps program, which supports data
 You can find the program information, meeting schedule, agenda and program contacts in the following.
 
 Introductory Pathway 
-[2026](https://docs.google.com/document/d/1HN1mC8yB2CI_n2YVYOlqeFdUBaTmdp3y2-VwJnV-wW0/edit?tab=t.0) 2027 2028
+[2026](https://docs.google.com/document/d/1HN1mC8yB2CI_n2YVYOlqeFdUBaTmdp3y2-VwJnV-wW0/edit?tab=t.0) 
 
 Intermediate Pathway
-[2026](https://docs.google.com/document/d/1QupboSaD2lUKVYatw-xYTIohHXe1EhF9YQCnlwXZn54/edit?tab=t.0) 2027 2028
+[2026](https://docs.google.com/document/d/1QupboSaD2lUKVYatw-xYTIohHXe1EhF9YQCnlwXZn54/edit?tab=t.0) 
 
 Advanced Pathway 
-[2026](https://docs.google.com/document/d/1Tc2rZrXk7NFPUL9y7A_Tj2mVQTKoOIcNlgDxT8RQ__g/edit?tab=t.0) 2027 2028
+[2026](https://docs.google.com/document/d/1Tc2rZrXk7NFPUL9y7A_Tj2mVQTKoOIcNlgDxT8RQ__g/edit?tab=t.0) 
 
 ## Advanced Pathway Projects
 
