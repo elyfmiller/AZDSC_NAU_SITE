@@ -5,3 +5,5 @@ title: "Inference of Parameters of Dynamical Systems"
 ### [Day 1 Notebook](materials/Day1.ipynb)
 
 ### [Day 2 Notebook](materials/Day2.ipynb)
+
+### [Day 3 Notebook](materials/Day3.ipynb)
