@@ -44,7 +44,7 @@ For educators ready to extend data science activities into richer modeling and a
 Project-based modeling experiences. Summer 2026 focuses on epidemic modeling and inference.
 
 [Program document](https://docs.google.com/document/d/1Tc2rZrXk7NFPUL9y7A_Tj2mVQTKoOIcNlgDxT8RQ__g/edit?tab=t.0)  
-[2026 advanced schedule](schedule/schedule_2026_advanced.qmd)
+[2026 workshop schedule](schedule/schedule_2026_advanced.qmd)
 :::
 :::
 
