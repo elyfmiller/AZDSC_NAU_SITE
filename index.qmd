@@ -28,7 +28,6 @@ This site is the public home for schedules, pathway links, advanced project mate
 Foundational data science routines, classroom activities, and program information.
 
 [Program document](https://docs.google.com/document/d/1HN1mC8yB2CI_n2YVYOlqeFdUBaTmdp3y2-VwJnV-wW0/edit?tab=t.0)  
-[Schedule](schedule/schedule_2026_intro.qmd)
 :::
 
 ::: {.feature-card}
@@ -37,7 +36,6 @@ Foundational data science routines, classroom activities, and program informatio
 For educators ready to extend data science activities into richer modeling and analysis.
 
 [Program document](https://docs.google.com/document/d/1QupboSaD2lUKVYatw-xYTIohHXe1EhF9YQCnlwXZn54/edit?tab=t.0)  
-[Schedule](schedule/schedule_2026_int.qmd)
 :::
 
 ::: {.feature-card}

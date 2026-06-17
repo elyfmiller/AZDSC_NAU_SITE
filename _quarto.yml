@@ -7,14 +7,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: Pathways
-        menu:
-          - href: schedule/schedule_2026_intro.qmd
-            text: Introductory Pathway
-          - href: schedule/schedule_2026_int.qmd
-            text: Intermediate Pathway
-          - href: schedule/schedule_2026_advanced.qmd
-            text: Advanced Pathway
       - href: project_1/index.qmd
         text: Advanced Projects
       - href: notebooks/index.qmd
