@@ -1,8 +1,3 @@
----
-title: "Arizona Data Science Corps"
-description: "Pathway schedules, advanced project materials, notebooks, and faculty data science examples for AZDSC."
----
-
 ::: {.hero}
 ::: {.hero-copy}
 ## Arizona Data Science Corps
@@ -17,16 +12,14 @@ Professional learning, classroom-ready resources, and applied data science proje
 ![](imgs/data_science_education-768x439.jpg)
 :::
 :::
+Arizona Data Science Corps (AZDSC) addresses Arizona’s need for more teachers prepared to bring data science education into 6th–12th grade classrooms. Through statewide professional learning, AZDSC will support 180 teachers across all 15 Arizona counties, reaching approximately 18,000 students.
 
-The Arizona Department of Education has emphasized that there is currently a dearth of teachers prepared to facilitate data science education in Arizona. Arizona Data Science Corps (AZDSC) will help to address this shortfall by (1) supporting the data science education professional learning of ninety 6th-12th grade Math/Stat/Computer Science teachers, ninety 6th-12th grade non-Math/Stat/Computer Science teachers; and (2) laying the foundation for the development, adoption, and implementation of Arizona K-12 Data Science Education Standards. Arizona Data Science Corps will support data science education across the whole state of Arizona with professional learning and research activities associated with AZDSC occurring in every region of Arizona and impacting every educational services agency district in the state. This project will provide Data Science education and support to all fifteen Arizona counties through a regional (North, South, Central) hybrid model, which will directly impact 180 6th-12th grade teachers and approximately 18,000 of their 6th-12th grade students.
+The project also supports the development of Arizona K–12 Data Science Education Standards and offers pathways for teachers, students, and researchers to engage in data science learning, career exploration, and education research.
 
-AZDSC will provide three different pathways for broadening student, teacher, and researcher involvement in career explorations and data science learning. To research teacher learning and student data literacy, this study will employ a Design-Based Research (DBR) approach to uncover, explore, and validate theoretical relationships while developing corresponding design principles for interventions. Mixed methods of data collection and analysis, including surveys and subsequent quantitative analyses of project artifacts, will support understanding data science experiences for teachers and students. Ultimately, this work will inform the development of Arizona's Data Science Education State Standards.
-
-This project is supported by the Data Science Corps program, which supports data science education and training to build a strong national data science infrastructure and workforce. Additionally, This project is co-funded by the Innovative Technology Experiences for Students and Teachers (ITEST) program, which supports projects that build understandings of practices, program elements, contexts and processes contributing to increasing students' knowledge and interest in science, technology, engineering, and mathematics (STEM) and information and communication technology (ICT) careers.
 
 ## 2026 Workshop Hub {#pathways}
 
-Use this site as the public home for schedules, pathway links, advanced project materials, and examples of data science applications connected to NAU faculty work.
+This site is the public home for schedules, pathway links, advanced project materials, and examples of data science applications connected to NAU faculty work.
 
 ::: {.link-grid}
 ::: {.feature-card}
@@ -65,19 +58,19 @@ The advanced pathway is designed to grow into a menu of about five projects. For
 ::: {.project-card .active-project}
 ### 1. Epidemic Modeling and Inference
 
-Simulate SIR models, explore Markov chains, and use MCMC to infer parameters in state space models.
+Simulate SIR models, explore Markov chains, and use MCMC to infer parameters in epidemic models.
 
 [Open project](project_1/index.qmd)
 :::
 
 ::: {.project-card}
-### 2. Future Project
+### 2. Trend Detection in Climate Data
 
 Reserved for a future advanced pathway project.
 :::
 
 ::: {.project-card}
-### 3. Future Project
+### 3. ASC Survey Data Analysis
 
 Reserved for a future advanced pathway project.
 :::

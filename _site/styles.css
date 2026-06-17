@@ -68,6 +68,7 @@ a {
 }
 
 .btn-secondary {
+  background: #fff;
   border: 1px solid var(--azdsc-blue);
   color: var(--azdsc-blue);
 }
