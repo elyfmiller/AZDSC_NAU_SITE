@@ -68,8 +68,8 @@ a {
 }
 
 .btn-secondary {
-  border: 1px solid var(--azdsc-blue);
-  color: var(--azdsc-blue);
+  background: var(--azdsc-blue);
+  color: #fff;
 }
 
 .link-grid,
