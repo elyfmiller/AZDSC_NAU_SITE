@@ -9,10 +9,8 @@ website:
         text: Home
       - href: project_1/index.qmd
         text: Advanced Projects
-      - href: notebooks/index.qmd
-        text: Notebooks
       - href: faculty_applications.qmd
-        text: Faculty Applications
+        text: DS Applications
       - href: about.qmd
         text: About
     right: 
