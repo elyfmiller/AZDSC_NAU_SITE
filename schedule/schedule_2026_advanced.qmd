@@ -16,13 +16,13 @@ The advanced pathway follows the same start and end time as the introductory pat
 
 | Time | Activity |
 |---|---|
-| 8:00-8:30 | Shared reimbursement meeting and program logistics |
-| 8:30-8:50 | Advanced pathway welcome: three-day plan, instructors, participant introductions |
-| 8:50-10:15 | Python warm-up: variables, functions, lists, arrays, and plotting |
+| 8:00-8:45 | Shared reimbursement meeting and program logistics |
+| 8:45-9:10 | Advanced pathway welcome: three-day plan, instructors, participant introductions |
+| 9:10-10:15 | Python warm-up: variables, functions, lists, arrays, and plotting |
 | 10:15-10:30 | Break |
-| 10:30-12:00 | Loops, model updates, and simulation |
-| 12:00-1:00 | Lunch |
-| 1:00-2:15 | Randomness, probability, and transition matrices |
+| 10:30-11:45 | Loops, model updates, and simulation |
+| 11:45-1:45 | Lunch |
+| 1:45-2:15 | Randomness, probability, and transition matrices |
 | 2:15-2:30 | Break |
 | 2:30-3:45 | Likelihood, simulation, and Monte Carlo intuition |
 | 3:45-4:00 | Reflection and Day 2 preview |
@@ -50,7 +50,5 @@ The advanced pathway follows the same start and end time as the introductory pat
 | 10:15-10:30 | Break |
 | 10:30-12:00 | MCMC intuition and implementation |
 | 12:00-1:00 | Lunch |
-| 1:00-2:15 | Inference for state space models |
-| 2:15-2:30 | Break |
-| 2:30-3:30 | Project synthesis and classroom connections |
-| 3:30-4:00 | Wrap-up, feedback, and next steps |
+| 1:00-3:00 | DataJam and classroom connections |
+| 3:00-4:00 | Wrap-up, feedback, and next steps |
