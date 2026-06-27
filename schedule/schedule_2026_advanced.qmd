@@ -12,43 +12,43 @@ Time: 8:00 AM - 4:00 PM
 
 The advanced pathway follows the same start and end time as the introductory pathway. Participants will join the shared reimbursement and program logistics meeting, then split into pathway groups.
 
-## Day 1: Python Foundations
+## Day 1: Python Foundations, Visualization, Probability, Regression, and Deep Learning
 
 | Time | Activity |
 |---|---|
 | 8:00-8:45 | Shared reimbursement meeting and program logistics |
-| 8:45-9:10 | Advanced pathway welcome: three-day plan, instructors, participant introductions |
-| 9:10-10:15 | Python warm-up: variables, functions, lists, arrays, and plotting |
+| 8:45-9:10 | Advanced pathway welcome: three-day goals, participant introductions, coding comfort check, and classroom-connection framing |
+| 9:10-10:15 | Python notebook basics: variables, expressions, functions, NumPy arrays, first plots, and short parameter-change exercises |
 | 10:15-10:30 | Break |
-| 10:30-11:45 | Loops, model updates, and simulation |
+| 10:30-11:45 | Simulation foundations: loops, SIR one-step updates, plotting model output, and scenario-comparison exercises |
 | 11:45-1:45 | Lunch |
-| 1:45-2:15 | Randomness, probability, and transition matrices |
+| 1:45-2:15 | Statistics package tour: pandas summaries, `scipy.stats` probability functions, binomial/normal examples, and quick classroom probability tasks |
 | 2:15-2:30 | Break |
-| 2:30-3:45 | Likelihood, simulation, and Monte Carlo intuition |
-| 3:45-4:00 | Reflection and Day 2 preview |
+| 2:30-3:45 | Regression and deep learning package session: classroom-style regression with scikit-learn, residual plots, PyTorch tensors, and PyTorch regression training loop |
+| 3:45-4:00 | Reflection: which visualization/regression example is most classroom-ready? Day 2 preview |
 
-## Day 2: Epidemic Models and Markov Chains
+## Day 2: Dynamical Systems, Epidemic Models, Loss Functions, and Optimization
 
 | Time | Activity |
 |---|---|
-| 8:00-8:15 | Review of Day 1 ideas and project goals |
-| 8:15-10:15 | SIR models and Euler's method |
+| 8:00-8:15 | Review of Day 1 ideas: arrays, graphs, regression, probability, and model-output thinking |
+| 8:15-10:15 | Dynamical systems: discrete vs. continuous growth, Euler's method, logistic growth, and short modify-and-plot exercises |
 | 10:15-10:30 | Break |
-| 10:30-12:00 | Simulation experiments and interpretation |
+| 10:30-12:00 | Multi-dimensional systems and epidemic models: Lotka-Volterra, SIS, SIR, SIRS/SIRH diagrams, and classroom visualization pauses |
 | 12:00-1:00 | Lunch |
-| 1:00-2:15 | Markov chain states and transition matrices |
+| 1:00-2:15 | Parameter inference: fictional flu data, data visualization, loss functions, grid search, and loss-surface interpretation |
 | 2:15-2:30 | Break |
-| 2:30-3:45 | Classroom adaptation planning |
-| 3:45-4:00 | Reflection and Day 3 preview |
+| 2:30-3:45 | Optimization: gradient descent intuition, automatic differentiation with JAX, and fitting parameters with gradients |
+| 3:45-4:00 | Classroom adaptation planning and Day 3 preview |
 
-## Day 3: MCMC and Inference
+## Day 3: Fitting Models to Data, Uncertainty, and Classroom Adaptation
 
 | Time | Activity |
 |---|---|
-| 8:00-8:20 | Review: simulation, probability, and likelihood |
-| 8:20-10:15 | Bayesian inference and noisy observations |
+| 8:00-8:20 | Review: simulation, visualization, probability, loss functions, and parameter meaning |
+| 8:20-10:15 | Real data workflow: Arizona influenza hospitalization data, rolling averages, SIR-to-hospitalization model, and grid-search fitting |
 | 10:15-10:30 | Break |
-| 10:30-12:00 | MCMC intuition and implementation |
+| 10:30-12:00 | Model checking and uncertainty: residual plots, best-parameter tables, simple MCMC sampler, trace plots, and posterior visualization |
 | 12:00-1:00 | Lunch |
-| 1:00-3:00 | DataJam and classroom connections |
-| 3:00-4:00 | Wrap-up, feedback, and next steps |
+| 1:00-3:00 | DataJam and classroom connections: participants adapt one dataset/model into a lesson, including a student question, graph, and interpretation prompt |
+| 3:00-4:00 | Group share-out, feedback, next steps, and support plan for classroom implementation |

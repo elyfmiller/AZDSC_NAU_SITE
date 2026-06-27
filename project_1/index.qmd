@@ -12,7 +12,7 @@ Summer 2026 advanced pathway participants will use epidemic models as a context 
 
 Set up Python habits needed for the rest of the project: variables, functions, arrays, plotting, loops, random simulation, transition matrices, and likelihood intuition.
 
-[Day 1 notebook](materials/Day1.ipynb)
+[Day 1 notebook](materials/Day1_revised.ipynb)
 :::
 
 ::: {.schedule-item}
@@ -20,7 +20,7 @@ Set up Python habits needed for the rest of the project: variables, functions, a
 
 Move from repeated update rules to epidemic models and stochastic transitions.
 
-[Day 2 notebook](materials/Day2.ipynb)  
+[Day 2 notebook](materials/Day2_revised_realdata_executed.ipynb)  
 :::
 
 ::: {.schedule-item}
@@ -28,7 +28,7 @@ Move from repeated update rules to epidemic models and stochastic transitions.
 
 Use simulation and probability ideas to estimate unknown model parameters from noisy observations.
 
-[Day 3 notebook](materials/Day3.ipynb)
+[Day 3 notebook](materials/Day3_revised_realdata_executed.ipynb)
 :::
 :::
 

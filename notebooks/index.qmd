@@ -6,10 +6,11 @@ This page collects rendered notebook materials used by the advanced pathway. The
 
 ## Summer 2026: Epidemic Modeling
 
-1. [Day 1: Python Foundations for Modeling and Inference](../project_1/materials/Day1.ipynb)
-2. [Intro to SIR Models and Euler's Method](example_SIR.ipynb)
-3. [Intro to Markov Chains](markov_chains.ipynb)
-4. [Intro to MCMC and Inference for State Space Models](MCMC.ipynb)
+1. [Day 1: Python Foundations for Modeling and Inference](../project_1/materials/Day1_revised.ipynb)
+2. [Day 2: SIR Models, Euler's Method, and Markov Chains](../project_1/materials/Day2_revised_realdata_executed.ipynb)
+3. [Day 3: MCMC and Inference for State Space Models](../project_1/materials/Day3_revised_realdata_executed.ipynb)
+4. [Intro to Markov Chains](../project_1/materials/markov_chains.ipynb)
+5. [Intro to MCMC and Inference for State Space Models](../project_1/materials/MCMC.ipynb)
 
 ## Future Project Formats
 
