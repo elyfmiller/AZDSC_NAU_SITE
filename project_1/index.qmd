@@ -1,45 +1,11 @@
 ---
-title: "Advanced Project 1: Epidemic Modeling and Inference"
+title: "Advanced Pathway Materials"
 ---
 
-Summer 2026 advanced pathway participants will use epidemic models as a context for learning how deterministic simulation, stochastic models, and Bayesian inference fit together.
+Summer 2026 advanced pathway participants will use epidemic models as a context for learning how deterministic simulation, optimization, stochastic models, and Bayesian inference fit together.
 
-## Three-Day Plan
+## Daily Schedule
 
-::: {.schedule-list}
-::: {.schedule-item}
-### Day 1: Python Foundations for Modeling and Inference
+The daily schedule is the main entry point for workshop materials. Participant notebooks and solution notebooks are linked from each session.
 
-Set up Python habits needed for the rest of the project: variables, functions, arrays, plotting, loops, random simulation, transition matrices, and likelihood intuition.
-
-[Day 1 notebook](materials/Day1_revised.ipynb)
-:::
-
-::: {.schedule-item}
-### Day 2: SIR Models, Euler's Method, and Markov Chains
-
-Move from repeated update rules to epidemic models and stochastic transitions.
-
-[Day 2 notebook](materials/Day2_revised_realdata_executed.ipynb)  
-:::
-
-::: {.schedule-item}
-### Day 3: MCMC and Inference for State Space Models
-
-Use simulation and probability ideas to estimate unknown model parameters from noisy observations.
-
-[Day 3 notebook](materials/Day3_revised_realdata_executed.ipynb)
-:::
-:::
-
-## Additional Project Materials
-
-These files are kept for continuity with existing project materials and can be reorganized as the project grows.
-
-- [Introduction to Markov Chains](materials/markov_chains.ipynb)
-- [Introduction to MCMC](materials/MCMC.ipynb)
-- [Fictitious data CSV](fictious_data.csv)
-
-## Future Advanced Projects
-
-The advanced pathway is expected to include about five projects over time. This page is structured so additional project pages can be added without changing the overall site design.
+[Open the daily schedule](../schedule/schedule_2026_advanced.qmd)

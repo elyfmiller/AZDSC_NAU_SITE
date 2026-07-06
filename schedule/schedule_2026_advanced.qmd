@@ -1,5 +1,5 @@
 ---
-title: "Advanced Pathway Schedule: Summer 2026"
+title: "Advanced Pathway Daily Schedule: Summer 2026"
 ---
 
 ## Summer Session
@@ -12,43 +12,50 @@ Time: 8:00 AM - 4:00 PM
 
 The advanced pathway follows the same start and end time as the introductory pathway. Participants will join the shared reimbursement and program logistics meeting, then split into pathway groups.
 
+## Instructors
+
+- Ye Chen
+- Avery Drennan - Google
+- Ely Finn Miller
+- Jaechoul Lee
+
 ## Day 1: Python Foundations, Visualization, Probability, Regression, and Deep Learning
 
 | Time | Activity |
 |---|---|
 | 8:00-8:45 | Shared reimbursement meeting and program logistics. (Main room with Intro pathway) |
-| 8:45-9:10 | Advanced pathway welcome: three-day goals, participant introductions, coding comfort check, and Google Colab set up. (Ely)|
-| 9:10-10:00 |  Python notebook basics: variables, expressions, functions, NumPy arrays, first plots, Pandas and short parameter-change exercises (Ely)|
+| 8:45-9:10 | Advanced pathway welcome: three-day goals, participant introductions, coding comfort check, and Google Colab set up. (Ye) |
+| 9:10-10:00 | Python notebook basics: variables, expressions, functions, NumPy arrays, first plots, short parameter-change exercises. (Ely) |
 | 10:00-10:15 | Break |
-| 10:15-11:45 | Simulation foundations: loops, SIR one-step updates, plotting model output, and scenario-comparison exercises |
-| 11:45-1:45 | Lunch |
-| 1:45-2:35 | Statistics package tour: pandas summaries, `scipy.stats` probability functions, binomial/normal examples, and quick classroom probability tasks (Jaechoul)|
+| 10:15-11:45 | Simulation foundations: Pandas, loops, functions, more plots. (Ely) |
+| 11:45-12:45 | Lunch |
+| 12:45-2:35 | Statistics package tour: `scipy.stats` probability functions, normal examples, regression analysis, logistic regression. (Jaechoul) |
 | 2:35-2:50 | Break |
-| 2:50-3:45 | Regression and deep learning package session: classroom-style regression with scikit-learn, residual plots, PyTorch tensors, and PyTorch regression training loop (Jaechoul) |
-| 3:45-4:00 | Reflection (Ye)|
+| 2:50-3:45 | Regression and deep learning package session: classroom-style regression with scikit-learn, residual plots, PyTorch tensors, and PyTorch regression training loop. (Jaechoul) |
+| 3:45-4:00 | Reflection. (Ye) |
 
 ## Day 2: Dynamical Systems, Epidemic Models, Loss Functions, and Optimization
 
 | Time | Activity |
 |---|---|
-| 8:00-8:15 | Review of Day 1 ideas: arrays, graphs, regression, probability, and model-output thinking (Ye)|
-| 8:15-10:30 | Dynamical systems: discrete vs. continuous growth, Euler's method, logistic growth, and short modify-and-plot exercises (Ye) |
+| 8:00-8:15 | Review of Day 1 ideas: arrays, graphs, regression, probability, and model-output thinking. (Ye) |
+| 8:15-10:30 | Dynamical systems: discrete vs. continuous growth, Euler's method, logistic growth, and short modify-and-plot exercises. [Notebook](../project_1/materials/day2_s1_dynamicalSystem.ipynb) / [Solutions](../project_1/materials/day2_s1_dynamicalSystem_solutions.ipynb). (Ye) |
 | 10:30-10:45 | Break |
-| 10:45-12:00 | Multi-dimensional systems and epidemic models: Lotka-Volterra, SIS, SIR, SIRS/SIRH diagrams, and classroom visualization pauses (Ely)|
+| 10:45-12:00 | Multi-dimensional systems and epidemic models: Lotka-Volterra, SIS, SIR, SIRS/SIHR diagrams, and classroom visualization pauses. [Notebook](../project_1/materials/day2_s2_SIRmodels.ipynb) / [Solutions](../project_1/materials/day2_s2_SIRmodels_solutions.ipynb). (Ely) |
 | 12:00-1:00 | Lunch |
-| 1:00-2:15 | Parameter inference: fictional flu data, data visualization, loss functions, grid search, and loss-surface interpretation (Ye) |
+| 1:00-2:15 | Parameter inference: data simulation, data visualization, MSE loss functions, grid search, and loss-surface interpretation. [Notebook](../project_1/materials/day2_s3_gridSearch.ipynb) / [Solutions](../project_1/materials/day2_s3_gridSearch_solutions.ipynb). (Ye) |
 | 2:15-2:30 | Break |
-| 2:30-3:45 | Optimization: gradient descent intuition, automatic differentiation with JAX, and fitting parameters with gradients (Avery)|
-| 3:45-4:00 | Reflection (Ye)|
+| 2:30-3:45 | Optimization: gradient descent intuition, automatic differentiation with JAX, and fitting parameters with gradients. [Notebook](../project_1/materials/day2_s4_Optimization.ipynb) / [Solutions](../project_1/materials/day2_s4_Optimization_solutions.ipynb). (Avery) |
+| 3:45-4:00 | Reflection. (Ye) |
 
 ## Day 3: Fitting Models to Data, Uncertainty, and Classroom Adaptation
 
 | Time | Activity |
 |---|---|
-| 8:00-8:20 | Review: simulation, visualization, probability, loss functions, and parameter meaning (Ye)|
-| 8:20-10:15 | Real data workflow: Arizona influenza hospitalization data, rolling averages, SIR-to-hospitalization model, and grid-search fitting (Ye)|
+| 8:00-8:20 | Review: simulation, visualization, probability, loss functions, and parameter meaning. (Ye) |
+| 8:20-10:15 | Real data workflow: Arizona influenza hospitalization data, rolling averages, likelihood intuition, random walks, and connections to parameter fitting. [Notebook](../project_1/materials/day3_s1_LikelihoodRandomWalk.ipynb) / [Solutions](../project_1/materials/day3_s1_LikelihoodRandomWalk_solutions.ipynb). (Ye) |
 | 10:15-10:30 | Break |
-| 10:30-12:00 | Model checking and uncertainty: residual plots, best-parameter tables, simple MCMC sampler, trace plots, and posterior visualization (Avery)|
+| 10:30-12:00 | Model checking and uncertainty: residual plots, best-parameter tables, simple MCMC sampler, trace plots, and posterior visualization. [Notebook](../project_1/materials/day3_s2_MCMC_RealData_Forecast.ipynb) / [Solutions](../project_1/materials/day3_s2_MCMC_RealData_Forecast_solutions.ipynb). (Avery) |
 | 12:00-1:00 | Lunch |
-| 1:00-3:00 | DataJam and classroom connections: participants adapt one dataset/model into a lesson, including a student question, graph, and interpretation prompt (Judy)|
-| 3:00-4:00 | Group share-out, feedback, next steps, and support plan for classroom implementation (Jeff)|
+| 1:00-3:00 | DataJam and classroom connections: participants adapt one dataset/model into a lesson, including a student question, graph, and interpretation prompt. |
+| 3:00-4:00 | Final research gathering and Community of Practice info. (Main room with Intro pathway) |

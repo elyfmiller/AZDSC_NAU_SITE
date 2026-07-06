@@ -1,5 +1,17 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "schedule/*.qmd"
+    - "project_1/index.qmd"
+    - "notebooks/*.qmd"
+    - "notebooks/*.Rmd"
+    - "notebooks/*.ipynb"
+    - "!project_1/materials/"
+  resources:
+    - "project_1/materials/*.ipynb"
+    - "project_1/materials/AZ_DATA.csv"
+    - "project_1/fictious_data.csv"
 
 website:
   title: "Arizona Data Science Corps"
@@ -7,8 +19,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: project_1/index.qmd
-        text: Advanced Projects
+      - href: schedule/schedule_2026_advanced.qmd
+        text: Daily Schedule
       - href: faculty_applications.qmd
         text: DS Applications
       - href: about.qmd
@@ -29,6 +41,3 @@ format:
 execute:
   freeze: auto
   echo: true    # Ensures code is displayed correctly
-
-
-

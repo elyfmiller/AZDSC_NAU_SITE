@@ -2,16 +2,17 @@
 title: "Notebook Library"
 ---
 
-This page collects rendered notebook materials used by the advanced pathway. The Python notebooks are used for the Summer 2026 epidemic modeling project. The R Markdown file is included as a test format for future projects that may use R.
+The daily schedule is the primary entry point for the Summer 2026 advanced pathway notebooks.
+
+[Open the daily schedule](../schedule/schedule_2026_advanced.qmd)
 
 ## Summer 2026: Epidemic Modeling
 
-1. [Day 1: Python Foundations for Modeling and Inference](../project_1/materials/Day1_revised.ipynb)
-2. [Day 2: SIR Models, Euler's Method, and Markov Chains](../project_1/materials/Day2_revised_realdata_executed.ipynb)
-3. [Day 3: MCMC and Inference for State Space Models](../project_1/materials/Day3_revised_realdata_executed.ipynb)
-4. [Intro to Markov Chains](../project_1/materials/markov_chains.ipynb)
-5. [Intro to MCMC and Inference for State Space Models](../project_1/materials/MCMC.ipynb)
-
-## Future Project Formats
-
-1. [R Markdown example file](example_R.Rmd)
+| Session | Participant notebook | Solution notebook |
+|---|---|---|
+| Day 2 Session 1: Dynamical Systems | [Notebook](../project_1/materials/day2_s1_dynamicalSystem.ipynb) | [Solutions](../project_1/materials/day2_s1_dynamicalSystem_solutions.ipynb) |
+| Day 2 Session 2: SIR Models | [Notebook](../project_1/materials/day2_s2_SIRmodels.ipynb) | [Solutions](../project_1/materials/day2_s2_SIRmodels_solutions.ipynb) |
+| Day 2 Session 3: Grid Search | [Notebook](../project_1/materials/day2_s3_gridSearch.ipynb) | [Solutions](../project_1/materials/day2_s3_gridSearch_solutions.ipynb) |
+| Day 2 Session 4: Optimization | [Notebook](../project_1/materials/day2_s4_Optimization.ipynb) | [Solutions](../project_1/materials/day2_s4_Optimization_solutions.ipynb) |
+| Day 3 Session 1: Likelihood and Random Walk | [Notebook](../project_1/materials/day3_s1_LikelihoodRandomWalk.ipynb) | [Solutions](../project_1/materials/day3_s1_LikelihoodRandomWalk_solutions.ipynb) |
+| Day 3 Session 2: MCMC with Real Data | [Notebook](../project_1/materials/day3_s2_MCMC_RealData_Forecast.ipynb) | [Solutions](../project_1/materials/day3_s2_MCMC_RealData_Forecast_solutions.ipynb) |

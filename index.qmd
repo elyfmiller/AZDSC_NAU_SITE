@@ -5,7 +5,7 @@
 Professional learning, classroom-ready resources, and applied data science projects for Arizona educators.
 
 [Explore 2026 pathways](#pathways){.btn .btn-primary}
-[Advanced project materials](project_1/index.qmd){.btn .btn-secondary}
+[Daily schedule](schedule/schedule_2026_advanced.qmd){.btn .btn-secondary}
 :::
 
 ::: {.hero-image}
@@ -19,7 +19,7 @@ The project also supports the development of Arizona K–12 Data Science Educati
 
 ## 2026 Workshop Hub {#pathways}
 
-This site is the public home for schedules, pathway links, advanced project materials, and examples of data science applications connected to NAU faculty work.
+This site is the public home for schedules, pathway links, workshop notebooks, and examples of data science applications connected to NAU faculty work.
 
 ::: {.link-grid}
 ::: {.feature-card}
@@ -48,41 +48,17 @@ Project-based modeling experiences. Summer 2026 focuses on epidemic modeling and
 :::
 :::
 
-## Advanced Pathway Projects
+## Advanced Pathway Daily Schedule
 
-The advanced pathway is designed to grow into a menu of about five projects. For Summer 2026, the featured project is epidemic modeling.
+The Summer 2026 advanced pathway focuses on epidemic modeling, parameter fitting, optimization, and MCMC. Participant notebooks and solution notebooks are linked directly from the daily schedule.
 
 ::: {.project-list}
 ::: {.project-card .active-project}
-### 1. Epidemic Modeling and Inference
+### Epidemic Modeling and Inference
 
 Simulate SIR models, explore Markov chains, and use MCMC to infer parameters in epidemic models.
 
-[Open project](project_1/index.qmd)
-:::
-
-::: {.project-card}
-### 2. Trend Detection in Climate Data
-
-Reserved for a future advanced pathway project.
-:::
-
-::: {.project-card}
-### 3. ASC Survey Data Analysis
-
-Reserved for a future advanced pathway project.
-:::
-
-::: {.project-card}
-### 4. Future Project
-
-Reserved for a future advanced pathway project.
-:::
-
-::: {.project-card}
-### 5. Future Project
-
-Reserved for a future advanced pathway project.
+[Open daily schedule](schedule/schedule_2026_advanced.qmd)
 :::
 :::
 
