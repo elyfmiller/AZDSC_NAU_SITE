@@ -24,14 +24,14 @@ The advanced pathway follows the same start and end time as the introductory pat
 | Time | Activity |
 |---|---|
 | 8:00-8:45 | Shared reimbursement meeting and program logistics. (Main room with Intro pathway) |
-| 8:45-9:10 | Advanced pathway welcome: three-day goals, participant introductions, coding comfort check, and Google Colab set up. (Ye) |
-| 9:10-10:00 | Python notebook basics: variables, expressions, functions, NumPy arrays, first plots, short parameter-change exercises. (Ely) |
+| 8:45-9:10 | Advanced pathway welcome: three-day goals, participant introductions, coding comfort check, and Google Colab set up. [Intro slides](../project_1/materials/day1_intro_slides.pptx). (Ye) |
+| 9:10-10:00 | Python notebook basics: variables, expressions, functions, NumPy arrays, first plots, short parameter-change exercises. [Notebook](../project_1/materials/day1_s1_s2_PythonBasics.ipynb) / [Solutions](../project_1/materials/day1_s1_s2_PythonBasics_solution.ipynb). (Ely) |
 | 10:00-10:15 | Break |
-| 10:15-11:45 | Simulation foundations: Pandas, loops, functions, more plots. (Ely) |
+| 10:15-11:45 | Simulation foundations: Pandas, loops, functions, and more plots using the same Python basics notebook. [Notebook](../project_1/materials/day1_s1_s2_PythonBasics.ipynb) / [Solutions](../project_1/materials/day1_s1_s2_PythonBasics_solution.ipynb). (Ely) |
 | 11:45-12:45 | Lunch |
 | 12:45-2:35 | Statistics package tour: `scipy.stats` probability functions, normal examples, regression analysis, logistic regression. (Jaechoul) |
 | 2:35-2:50 | Break |
-| 2:50-3:45 | Regression and deep learning package session: classroom-style regression with scikit-learn, residual plots, PyTorch tensors, and PyTorch regression training loop. (Jaechoul) |
+| 2:50-3:45 | Regression and deep learning package session: classroom-style regression with scikit-learn, residual plots, PyTorch tensors, and a deep neural network training loop in PyTorch. (Jaechoul) |
 | 3:45-4:00 | Reflection. (Ye) |
 
 ## Day 2: Dynamical Systems, Epidemic Models, Loss Functions, and Optimization
