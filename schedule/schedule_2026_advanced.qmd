@@ -29,9 +29,9 @@ The advanced pathway follows the same start and end time as the introductory pat
 | 10:00-10:15 | Break |
 | 10:15-11:45 | Simulation foundations: Pandas, loops, functions, and more plots using the same Python basics notebook. [Notebook](../project_1/materials/day1_s1_s2_PythonBasics.ipynb) / [Solutions](../project_1/materials/day1_s1_s2_PythonBasics_solution.ipynb). (Ely) |
 | 11:45-12:45 | Lunch |
-| 12:45-2:35 | Statistics package tour: `scipy.stats` probability functions, normal examples, regression analysis, logistic regression. (Jaechoul) |
+| 12:45-2:35 | Statistics package tour: `scipy.stats` probability functions, normal examples, regression analysis, logistic regression. [Notebook](../project_1/materials/day1_s3_s4_binary_logistic_NN_v1-2.ipynb). (Jaechoul) |
 | 2:35-2:50 | Break |
-| 2:50-3:45 | Regression and deep learning package session: classroom-style regression with scikit-learn, residual plots, PyTorch tensors, and a deep neural network training loop in PyTorch. (Jaechoul) |
+| 2:50-3:45 | Regression and deep learning package session: classroom-style regression with scikit-learn, residual plots, PyTorch tensors, and a deep neural network training loop in PyTorch. [Notebook](../project_1/materials/day1_s3_s4_binary_logistic_NN_v1-2.ipynb). (Jaechoul) |
 | 3:45-4:00 | Reflection. (Ye) |
 
 ## Day 2: Dynamical Systems, Epidemic Models, Loss Functions, and Optimization
